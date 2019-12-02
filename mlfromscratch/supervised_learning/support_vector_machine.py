@@ -2,6 +2,7 @@
 from __future__ import division, print_function
 import numpy as np
 import cvxopt
+import pandas as pd;
 from mlfromscratch.utils import train_test_split, normalize, accuracy_score
 from mlfromscratch.utils.kernels import *
 from mlfromscratch.utils import Plot
