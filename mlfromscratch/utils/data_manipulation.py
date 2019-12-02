@@ -3,7 +3,7 @@ from itertools import combinations_with_replacement
 import numpy as np
 import math
 import sys
-
+import pandas as pd
 
 def shuffle_data(X, y, seed=None):
     """ Random shuffle of the samples in X and y """
