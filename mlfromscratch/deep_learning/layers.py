@@ -5,7 +5,7 @@ import numpy as np
 import copy
 from mlfromscratch.deep_learning.activation_functions import Sigmoid, ReLU, SoftPlus, LeakyReLU
 from mlfromscratch.deep_learning.activation_functions import TanH, ELU, SELU, Softmax
-
+import numpy as np
 
 class Layer(object):
 
