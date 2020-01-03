@@ -153,7 +153,7 @@ def to_categorical(x, n_col=None):
     one_hot[np.arange(x.shape[0]), x] = 1
     return one_hot
 
-
+#Test vijay
 def to_nominal(x):
     """ Conversion from one-hot encoding to nominal """
     return np.argmax(x, axis=1)
